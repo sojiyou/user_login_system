@@ -16,6 +16,8 @@
          justify-content: flex-end;
          background-image: url("background_image.jpg");
          background-size: cover;
+         background-repeat: no-repeat;
+         width: 100%;
       }
       #container{
          display: flex;

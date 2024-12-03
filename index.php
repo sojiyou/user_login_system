@@ -9,11 +9,13 @@
          padding: 0; margin: 0;
          background-image: url("background_image.jpg");
          background-size: cover;
+         background-repeat: no-repeat;
          display: grid;
          place-items: center; 
          min-width: 518px;
          height: 100vh;
          color: #E2F1E7;
+         width: 100%;
       }
       h1{
          padding-top: 2px;
