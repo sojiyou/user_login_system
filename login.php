@@ -16,7 +16,6 @@
          justify-content: flex-end;
          background-image: url("background_image.jpg");
          background-size: cover;
-         background-repeat: no-repeat;
          width: 100%;
       }
       #container{
@@ -63,7 +62,7 @@
 </head>
 <body>
    <div id="container">
-      <form action="process_login.php">
+      <form action="process_login.php" method="post">
          <h2>Login</h2>
          <label for="">Username</label>
          <input type="text" name="username" required> <br>

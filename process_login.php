@@ -21,7 +21,7 @@ if(mysqli_num_rows($result) > 0){
 } else{
    echo "<script>
    alert('Username or password is incorrect. Please try again');
-   window.location.href = 'login.php'; 
+
    </script>";
 }
 
